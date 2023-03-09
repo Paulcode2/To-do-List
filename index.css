@@ -1,0 +1,142 @@
+@import url(./media.scss);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 120%;
+  background: #222;
+}
+
+.card {
+  background: #000000d0;
+  color: #fff;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 2em;
+}
+
+.card h1 {
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.card .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .input input {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: #fff;
+  font-family: inherit;
+  font-size: 105%;
+  width: 100%;
+}
+
+.card .input svg {
+  margin: 0.5em;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card .input svg:hover {
+  color: #7c7c7c2b;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.card ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+
+.card ul .close {
+  position: absolute;
+  left: 58%;
+  margin-top: -1rem;
+  padding: 1rem 1rem 0.9rem 1rem;
+}
+
+.card ul .close:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.card ul li {
+  list-style: none;
+  margin: 0.2rem;
+  font-size: 1.3rem;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  background: grey;
+  cursor: pointer;
+}
+
+.card ul li:hover {
+  background: black;
+  color: grey;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  left: 40%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+#error {
+  display: none;
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */
