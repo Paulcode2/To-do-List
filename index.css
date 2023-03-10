@@ -21,7 +21,7 @@ body {
   background: #222;
 }
 
-.card {
+.Card {
   background: #000000d0;
   color: #fff;
   padding: 2em;
@@ -31,12 +31,12 @@ body {
   margin: 2em;
 }
 
-.card h1 {
+.Card h1 {
   margin: 0.5rem;
   text-align: center;
 }
 
-.card .input {
+.Card .input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +48,7 @@ body {
           justify-content: center;
 }
 
-.card .input input {
+.Card .input input {
   border: none;
   outline: none;
   padding: 0.4em 1em;
@@ -60,7 +60,7 @@ body {
   width: 100%;
 }
 
-.card .input svg {
+.Card .input svg {
   margin: 0.5em;
   border: none;
   height: 44px;
@@ -70,13 +70,13 @@ body {
   cursor: pointer;
 }
 
-.card .input svg:hover {
+.Card .input svg:hover {
   color: #7c7c7c2b;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
 
-.card ul {
+.Card ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,19 +87,19 @@ body {
   padding: 1rem;
 }
 
-.card ul .close {
+.Card ul .close {
   position: absolute;
   left: 58%;
   margin-top: -1rem;
   padding: 1rem 1rem 0.9rem 1rem;
 }
 
-.card ul .close:hover {
+.Card ul .close:hover {
   background-color: #000000;
   color: white;
 }
 
-.card ul li {
+.Card ul li {
   list-style: none;
   margin: 0.2rem;
   font-size: 1.3rem;
@@ -109,7 +109,7 @@ body {
   cursor: pointer;
 }
 
-.card ul li:hover {
+.Card ul li:hover {
   background: black;
   color: grey;
   -webkit-transition: all 0.4s ease-in-out;
